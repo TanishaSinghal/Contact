@@ -1,0 +1,79 @@
+.container1{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 20%;
+    left: 20%;
+}
+.circle{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: 25%;
+    left:30%;
+    background:radial-gradient( #f7b9e5, #ec38bc,#7303c0 , #03001e);
+    border-radius: 50%;
+    box-shadow: 2px 5px 40px blueviolet;
+}
+
+
+.container{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 0%;
+    left:0%;
+    transition: transform 1s;
+    border-radius: 50%;
+    visibility: hidden;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;}
+
+
+.container a:nth-child(6){
+    position: absolute;
+    top: 45%;
+    left: 15%;
+}
+
+.container a:nth-child(5){
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.container a:nth-child(4){
+    position: absolute;
+    top: 20%;
+    left: 60%;
+}
+
+
+.container a:nth-child(3){
+    position: absolute;
+    top: 45%;
+    left: 76%;
+}
+.container a:nth-child(2){
+    position: absolute;
+    top: 70%;
+    left: 30%;
+}
+.container a:nth-child(1){
+    position: absolute;
+    top: 70%;
+    left: 60%;
+}
+
+
+.circle:hover > .container{
+    transform: scale(2.3) rotateZ(-360deg);
+    visibility: visible ;
+    transition: all 1.5s;
+}
+
